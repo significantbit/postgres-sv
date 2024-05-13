@@ -23,7 +23,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/significantbit/postgres-sv:15
+          tags: ghcr.io/significantbit/postgres-sv:13
       - name: Generate artifact attestation
         uses: actions/attest-build-provenance@v1
         with:
